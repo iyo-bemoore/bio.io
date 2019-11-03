@@ -6,11 +6,12 @@ $gutter-horizontal: 6rem;
 // fonts
 $default-font-size: 1.6rem;
 // colors
-$color-primary: #55c57a;
-$color-primary-light: #55c57a;
-$color-primary-dark: #28b485;
-$color-secondary-light: #ffb900;
-$color-secondary-dark: #ff7730;
+$color-ggrey: #e5e9ec; // header bg color
+$color-primary: #91a5b9; // heading color
+$color-primary-light: #abbdcf; // sub headers
+$color-primary-dark: #28b485; /// not used
+$color-secondary-light: #a8f1d1; // not used
+$color-secondary-dark: #85a0df; // for text
 $color-tertiary-light: #2998ff;
 $color-tertiary-dark: #5643fa;
 $color-grey-dark: #777;

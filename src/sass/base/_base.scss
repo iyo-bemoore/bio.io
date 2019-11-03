@@ -1,0 +1,28 @@
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  @include responsive(tab-land) {
+    font-size: 56.25%;
+  }
+  @include responsive(tab-port) {
+    font-size: 50%;
+  }
+  @include responsive(large-desk) {
+    font-size: 75%;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem;
+  box-sizing: border-box;
+  @include responsive(tab-port) {
+    padding: 0;
+  }
+}

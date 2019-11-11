@@ -1,6 +1,5 @@
 import React from 'react'
-import downArrow from '../assets/images/downarrow.png'
-
+import Chevron from './Chevron'
 const Header = () => {
    return (
       <header className="header">
@@ -13,6 +12,7 @@ const Header = () => {
                <a href="#" className="animated-pop btn">Learn more!</a>
             </div>
          </section>
+         <Chevron />
       </header>
    )
 }

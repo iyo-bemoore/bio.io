@@ -5,10 +5,10 @@ const Navigation = () => {
       <div className="navigation">
          <nav className="navigation__nav">
             <ul className="navigation__list">
-               <li class="navigation__item"><a class="navigation__link" href="#">Home</a></li>
-               <li class="navigation__item"><a class="navigation__link" href="#">Articles</a></li>
-               <li class="navigation__item"><a class="navigation__link" href="#">Projects</a></li>
-               <li class="navigation__item"><a class="navigation__link" href="#">Contact</a></li>
+               <li className="navigation__item"><a className="navigation__link" href="#">Home</a></li>
+               <li className="navigation__item"><a className="navigation__link" href="#">Articles</a></li>
+               <li className="navigation__item"><a className="navigation__link" href="#">Projects</a></li>
+               <li className="navigation__item"><a className="navigation__link" href="#">Contact</a></li>
             </ul>
          </nav>
       </div>

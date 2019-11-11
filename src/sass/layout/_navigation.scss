@@ -2,6 +2,9 @@
   position: absolute;
   right: 5rem;
   z-index: 1;
+  &__list {
+    margin-top: 2rem;
+  }
   &__item {
     display: inline;
     text-transform: uppercase;
@@ -10,25 +13,17 @@
   &__link {
     position: relative;
     vertical-align: middle;
-    &::before,
-    &::after {
-      box-sizing: inherit;
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 100%;
-    }
     &:link,
     &:visited {
-      padding: 1rem;
+      padding: 1.2rem;
       text-decoration: none;
-      color: #85a0df;
+      color: lightgreen;
       font-size: 1.3rem;
     }
     &:hover,
     :active {
       color: $color-primary-light;
-      border-top: 2px solid$color-primary-dark;
+      border-bottom: 2px solid$color-primary-dark;
       transition: all 0.2s;
     }
   }

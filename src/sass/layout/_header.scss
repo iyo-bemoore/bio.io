@@ -1,3 +1,8 @@
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
 .header {
   align-items: center;
   display: flex;
@@ -49,7 +54,36 @@
     }
   }
   .btn {
+    padding: 1.4rem;
     animation-delay: 1s;
+    background: none;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 1.4rem;
+    &::before {
+      background: rgba(85, 84, 84, 0.322);
+      border-radius: 0.25em;
+      content: "";
+      position: absolute;
+      top: 0.5em;
+      right: 0.1em;
+      left: 0.1em;
+      bottom: -0.2em;
+      z-index: -1;
+    }
+    &::after {
+      border-radius: 0.25em;
+      background: #85a0df;
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
   }
 }
 .chevron {

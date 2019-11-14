@@ -85,6 +85,16 @@
       z-index: -1;
     }
   }
+  &__logo {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 0.1em;
+    left: 1rem;
+    background-color: green;
+    background: url("../../assets/images/logo_3.png");
+    background-size: cover;
+  }
 }
 .chevron {
   opacity: 0;
